@@ -76,5 +76,8 @@ Respon time host: 1,71 jam (tertinggi, merah)<br>
 **Cluster 4**: Hampir semua Entire Home/Apt dengan harga tertinggi (230,11), sangat didominasi Real Bed, mencerminkan akomodasi premium dengan kenyamanan terbaik.
 
 ### 4. Streamlit User Interface  <br>
-![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%202/streamlit1.JPG?raw=true?raw=true)  
+![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%202/streamlit1.JPG?raw=true?raw=true)
+
+
+
 ![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%202/streamlit2.JPG?raw=true?raw=true)  
