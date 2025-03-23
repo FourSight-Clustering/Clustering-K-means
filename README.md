@@ -20,7 +20,7 @@
 **Masalah Spesifik yang Relevan:**<br>
 ● Optimasi Penetapan Harga (Pricing Strategy): Menentukan harga optimal untuk setiap properti berdasarkan faktor seperti lokasi, fasilitas, rating, dan permintaan musiman.  
 ● Prediksi Permintaan: Memperkirakan tingkat hunian berdasarkan waktu tertentu, seperti musim liburan atau acara besar di Seattle.  
-● **Segmentasi Pasar: Mengidentifikasi jenis pelanggan (wisatawan bisnis,keluarga, pasangan) untuk mempersonalisasi layanan dan penawaran.**
+● **Segmentasi Pasar: Mengidentifikasi jenis pelanggan (wisatawan bisnis,keluarga, pasangan) untuk mempersonalisasi layanan dan penawaran.**  
 ● Analisis Kompetitif: Membandingkan properti dengan kompetitor dalam
 wilayah yang sama untuk memahami tren pasar.
 
