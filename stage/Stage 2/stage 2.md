@@ -20,8 +20,9 @@ Clustering memungkinkan pengelompokan data berdasarkan karakteristik tertentu, y
 
 ### 2. Model training <br>
 Pelatihan model adalah proses melatih algoritma ML dengan data pelatihan yang memadai untuk menunjukkan korelasi antara hasil dan variabel yang memengaruhi.  
-Dalam hal ini diperlukan data cleaning dan feature engineering. Model yang dipilih menggunakan K-Means karena dianggap mampu digunakan untuk data dengan skala besar.
+Dalam hal ini diperlukan data cleaning dan feature engineering. Model yang dipilih menggunakan K-Means karena dianggap mampu digunakan untuk data dengan skala besar.  
 
+![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%202/minmax.JPG?raw=true?raw=true)
 
 1. **MinMaxScaler** adalah fungsi unutk melakukan normalisasi data. Artinya skala data akan diubah sehingga hanya bernilai antara 0 dan 1. Nilai 0 untuk data terendah, dan nilai 1 untuk data tertinggi.  
 2. **Imputer dari Scikit-Learn** yang digunakan untuk mengganti data yang hilang dengan nilai tertentu. Ini dapat mempercepat proses data preprocessing.  
@@ -30,7 +31,6 @@ Teknik ini digunakan untuk menghindari bias yang bersifat ordinal pada LabelEnco
 
 
 ### 3. Profilisasi Cluster<br>
-
 **Cluster 1 :** <br>
 Harga (price): Rp137 ribuan (sedang, kuning)<br>
 Review score rating: 97,46 (tertinggi, merah) → Sangat baik<br>
@@ -76,3 +76,5 @@ Respon time host: 1,71 jam (tertinggi, merah)<br>
 **Cluster 4**: Hampir semua Entire Home/Apt dengan harga tertinggi (230,11), sangat didominasi Real Bed, mencerminkan akomodasi premium dengan kenyamanan terbaik.
 
 ### 4. Streamlit User Interface  <br>
+![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%202/streamlit1.JPG?raw=true?raw=true)  
+![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%202/streamlit2.JPG?raw=true?raw=true)  
