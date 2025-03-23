@@ -43,8 +43,10 @@ Encoding :
 - 63,5% dari listing adalah Entire Home/Apt, menunjukkan bahwa mayorita pemilik properti lebih memilih menyewakan seluruh unit daripada hanya satu kamar.  
 - 32,8% adalah Private Room, yang juga cukup signifikan tetapi jauh lebih keci dibandingkan Entire Home/Apt.  
 - Shared Room hampir tidak terlihat dalam proporsi, yang bisa menunjukka bahwa model berbagi kamar kurang diminati di pasar ini.  
-![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%201/Insight%20Tabel.JPG?raw=true?raw=true)  
+
 **Insight dari Tabel Deskripsi:**<br>
+![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%201/Insight%20Tabel.JPG?raw=true?raw=true)  
+
 ● Dominasi Seattle: Semua data yang ditampilkan berasal dari Seattle, menunjukkan bahwa kota ini memiliki jumlah
 listing terbanyak.  
 ● Tipe Akomodasi Populer: "Entire Home/Apt" dengan harga rata-rata $287,5 memiliki jumlah listing tertingg (13.207), menunjukkan bahwa properti sewa satu unit penuh lebih diminati dibandingkan tipe lain.  
