@@ -30,13 +30,14 @@ Sebagai gantinya, evaluasi dalam clustering dilakukan melalui profilisasi cluste
 Analisis selanjutnya akan berfokus pada identifikasi karakteristik masing-masing klaster serta penyusunan rekomendasi bisnis yang relevan berdasarkan hasil klasterisasi.  
 
 ### Hyperparameter Tuning<br>
-
+![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%203/Hyperparameter%20Tuning.JPG?raw=true?raw=true)  
 KMeans menghasilkan klaster yang lebih jelas dan padat dibandingkan DBSCAN, seperti ditunjukkan oleh nilai Davies-Bouldin Index, Silhouette Score, dan Calinski-Harabasz Index yang lebih unggul.
 
 Metode terbaik yang dipilih: KMeans dengan 5 klaster.
 
 
 ### Cluster PCA <br>
+![alt text](https://github.com/FourSight-Clustering/Clustering-K-means/blob/main/stage/Stage%203/Profilisasi%20Cluster.JPG?raw=true?raw=true)  
 Gambar 3D ini menunjukkan hasil klasterisasi KMeans dengan 5 klaster dalam ruang PCA 3D. Setiap warna mewakili klaster, dengan pemisahan yang cukup jelas, terutama pada Cluster 1 dan 2.  
 Namun, terdapat sedikit tumpang tindih antara Cluster 4 dan Cluster 5, yang menunjukkan kemiripan fitur antar data di klaster tersebut. Secara keseluruhan, KMeans berhasil mengelompokkan data dengan baik berdasarkan pola PCA  
 
