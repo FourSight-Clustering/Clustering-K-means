@@ -1,10 +1,13 @@
 import streamlit as st
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os 
+import pandas as pd
 
 # Load data hasil clustering
-df = pd.read_excel("apps/Hasil Clustering KMeans.xlsx")  # Pastikan file ini adalah hasil dari K-Means
+current_dir = os.path.dirname(__file__)
+file_path = os.path.join(current_dir, "Hasil Clustering KMeans.xlsx")
+df = pd.read_excel(file_path)
 
 # Streamlit UI
 st.title("🏡 Airbnb Recommendation System")
