@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data hasil clustering
-df = pd.read_excel("hasil clustering kmeans")  # Pastikan file ini adalah hasil dari K-Means
+df = pd.read_excel("Hasil Clustering KMeans.xlsx")  # Pastikan file ini adalah hasil dari K-Means
 
 # Streamlit UI
 st.title("🏡 Airbnb Recommendation System")
