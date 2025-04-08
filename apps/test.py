@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data hasil clustering
-df = pd.read_excel("Hasil Clustering KMeans.xlsx")  # Pastikan file ini adalah hasil dari K-Means
+df = pd.read_excel("hasil clustering kmeans")  # Pastikan file ini adalah hasil dari K-Means
 
 # Streamlit UI
 st.title("🏡 Airbnb Recommendation System")
@@ -20,11 +20,11 @@ if st.checkbox("Show raw data"):
 
 # Mapping angka cluster ke nama dan interpretasi berdasarkan instruksi
 cluster_names = {
-    0: "🏠 Budget Single",          # Cluster 1
-    1: "🏡 Spacious Family Home",   # Cluster 2
-    2: "✨ Luxury Group Stay",      # Cluster 3
-    3: "💤 Economy Shared Room",    # Cluster 4
-    4: "🛏️ Mid-Range Private Room" # Cluster 5
+    1: "🏠 Budget Single",          # Cluster 1
+    2: "🏡 Spacious Family Home",   # Cluster 2
+    3: "✨ Luxury Group Stay",      # Cluster 3
+    4: "💤 Economy Shared Room",    # Cluster 4
+    5: "🛏️ Mid-Range Private Room" # Cluster 5
 }
 
 # Tambahkan kolom nama cluster
